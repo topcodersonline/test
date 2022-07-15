@@ -1,0 +1,2 @@
+- name: Betterscan Scan
+  uses: topcodersonline/betterscan@v3
