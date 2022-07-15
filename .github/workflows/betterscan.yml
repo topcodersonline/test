@@ -1,2 +1,8 @@
-- name: Betterscan Scan
-  uses: topcodersonline/betterscan@v3
+name: Betterscan Scan
+on: [push]
+jobs:
+  Betterscan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Betterscan Scan
+        uses: topcodersonline/betterscan@v3
