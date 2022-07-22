@@ -1,0 +1,80 @@
+[
+    {
+        "hash": "58dcd67d7e5553cd0796570c1c6c1fe4",
+        "description": "Highentropy"
+    },
+    {
+        "hash": "e38c09758739bdfd845c6cf5d2160926",
+        "description": "Default session middleware settings: `secure` not set. It ensures the browser only sends the cookie over HTTPS."
+    },
+    {
+        "hash": "d229d3146458cd0a0b8280e4feb14273",
+        "description": "Untrusted user input in express render() function can result in arbitrary file read if hbs templating is used."
+    },
+    {
+        "hash": "a892b4ee54070cb387bfd0d2ff5bc328",
+        "description": "Default session middleware settings: `domain` not set. It indicates the domain of the cookie; use it to compare against the domain of the server in which the URL is being requested. If they match, then check the path attribute next."
+    },
+    {
+        "hash": "c9f4c7031f5610ec06bcee3e10de5668",
+        "description": "Consider changing the default session cookie name. An attacker can use it to fingerprint the server and target attacks accordingly."
+    },
+    {
+        "hash": "8572f8825ebaa3edc75edbee9a272a1c",
+        "description": "Default session middleware settings: `sameSite` attribute is not configured to strict or lax. These configurations provides protection against Cross Site Request Forgery attacks."
+    },
+    {
+        "hash": "1e76ba98b6bdcd2f5de84d51e815f94c",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    },
+    {
+        "hash": "be0da8ce591709a3c27ef9cb4c6391b5",
+        "description": "Default session middleware settings: `path` not set. It indicates the path of the cookie; use it to compare against the request path. If this and domain match, then send the cookie in the request."
+    },
+    {
+        "hash": "934611b7c02be646ba32df85c5de9a68",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    },
+    {
+        "hash": "9f9a0364b1b9a3228b4aa277f13a6f35",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    },
+    {
+        "hash": "d0c54dad195f695febc279b0ad9af369",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    },
+    {
+        "hash": "bafa6b9d1e2f05c9354ec804ede72938",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    },
+    {
+        "hash": "1a227d7e151edd1c5edf1ba48a0dac5a",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    },
+    {
+        "hash": "9a3e13f10714cd530b232c247a6e0b38",
+        "description": "Ensure that HEALTHCHECK instructions have been added to container images"
+    },
+    {
+        "hash": "f96fa6fb3f3283177e9e0f02e65e6dd8",
+        "description": "Ensure the base image uses a non latest version tag"
+    },
+    {
+        "hash": "746020d4eb81e5da1c14905b527b492a",
+        "description": {
+            "exception": "An exception occurred during the analysis of this file."
+        }
+    }
+]
