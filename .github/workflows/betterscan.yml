@@ -9,4 +9,8 @@ jobs:
           fetch-depth: 0
       - name: Betterscan Scan
         uses: topcodersonline/betterscan@v3
+      - name: Upload the SARIF file
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: data.sarif
     
