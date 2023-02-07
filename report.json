@@ -1,0 +1,44 @@
+[
+    {
+        "hash": "e38c09758739bdfd845c6cf5d2160926",
+        "description": "Default session middleware settings: `secure` not set. It ensures the browser only sends the cookie over HTTPS.",
+        "severity": "Warning",
+        "file": "app.js",
+        "line": 43
+    },
+    {
+        "hash": "d229d3146458cd0a0b8280e4feb14273",
+        "description": "Untrusted user input in express render() function can result in arbitrary file read if hbs templating is used.",
+        "severity": "Warning",
+        "file": "app.js",
+        "line": 71
+    },
+    {
+        "hash": "365c82000705402120743c923e31b580",
+        "description": "A variable is present in the filename argument of fs calls, this might allow an attacker to access anything on your system.\n",
+        "severity": "Warning",
+        "file": "app.js",
+        "line": 26
+    },
+    {
+        "hash": "9a3e13f10714cd530b232c247a6e0b38",
+        "description": "Ensure that HEALTHCHECK instructions have been added to container images",
+        "severity": "Warning",
+        "file": "Dockerfile",
+        "line": 1
+    },
+    {
+        "hash": "8e40a213417f2767f2106e41fe6be9e4",
+        "description": "Ensure top-level permissions are not set to write-all",
+        "severity": "Warning",
+        "file": ".github/workflows/betterscan.yml",
+        "line": 0
+    },
+    {
+        "hash": "f96fa6fb3f3283177e9e0f02e65e6dd8",
+        "description": "Ensure the base image uses a non latest version tag",
+        "severity": "Warning",
+        "file": "Dockerfile",
+        "line": 1
+    }
+]
